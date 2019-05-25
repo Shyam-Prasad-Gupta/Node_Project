@@ -1,6 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
+const port = process.env.PORT || 3000;
 //const html = require('html');
 
 
@@ -91,6 +92,6 @@ app.get('/careers', (req, res) => {
     })
 });
 
-app.listen(8080, () => {
-    console.log('Server is up and running on port 8080')
+app.listen(3000, () => {
+    console.log(`Server is up and running on port ${port}`)
 });
