@@ -1,0 +1,16 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Demo application to demo the expressjs library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shyamg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "hbs": "^4.0.4",
+    "html": "^1.0.0"
+  }
+}
